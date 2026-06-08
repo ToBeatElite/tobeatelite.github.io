@@ -6,7 +6,7 @@ layout: page
 comments: false
 ---
 
-**T1033 - System Owner/User Discovery:**
+**T1033 - System Owner/User Discovery**
 - Information Technology '27 @ York University
 - Adversary Emulation Intern @ RBC
 - OffSec Certified Professional (OSCP)
