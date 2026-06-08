@@ -202,7 +202,7 @@ Testing it out, we can see that while the synthetic frames are active, Eclipse d
 | :---: |
 | **Figure 1:** Eclipse Scanning the Spoofed Stack | 
 
-After the API call returned, the HWBP raised an exception, then the VEH handles it and restores execution back to normal within the same thread. Note how the real origin modules become visible.
+After the API call returned, the HWBP raised an exception, then the VEH handles it and restores execution back to normal within the same thread.
 
 | ![figure2.PNG](/assets/img/20260601/figure2.PNG) |
 | :---: |
