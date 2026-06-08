@@ -2,3 +2,84 @@
 ---
 
 @import "main";
+
+.highlight {  
+    color: #e8e1d8;
+
+    border: 1px solid rgba(255,255,255,0.04);
+    border-radius: 12px;
+}
+
+.highlight pre {
+    background: transparent;
+    color: inherit;
+}
+
+/* comments */
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs {
+    color: #a99b8c;
+    font-style: italic;
+}
+
+/* hex values, numbers */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+    color: #df8daa;
+}
+
+/* strings */
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+    color: #df8daa;
+}
+
+/* keywords */
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+    color: #e8e1d8;
+}
+
+/* functions */
+.highlight .nf,
+.highlight .fm {
+    color: #e8e1d8;
+}
+
+/* types */
+.highlight .nc,
+.highlight .nn {
+    color: #e8e1d8;
+}
+
+/* variables */
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #e8e1d8;
+}
+
+/* punctuation/operators */
+.highlight .o,
+.highlight .ow,
+.highlight .p {
+    color: #d8d2ca;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+    color: #df8daa;
+    font-style: normal;
+}

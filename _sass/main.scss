@@ -28,7 +28,7 @@ $dark-text-base-color: #c1bec7;
 $dark-text-link-blue: #ff5277;
 $dark-text-link-blue-active: #ff2957;
 
-$dark-black: #101115;
+$dark-black: #0a0b0d;
 $dark-white: #eaeaea;
 $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
@@ -61,3 +61,30 @@ $on-widescreen: 1152px;
 // Import sass files
 @import "klise/fonts", "klise/base", "klise/layout", "klise/post",
   "klise/miscellaneous", "klise/syntax", "klise/dark";
+
+
+/* Center the whole list block */
+ul {
+  list-style: none;
+  padding: 0;              /* remove default left/right padding */
+  margin: 0 auto;          /* center the block */
+  display: inline-block;   /* shrink to content width so centering works */
+  text-align: left;        /* keep text aligned normally */
+}
+
+/* List items */
+ul li {
+  position: relative;
+  margin: 0.3em 0;
+  padding-left: 2em;     /* space for bullet */
+  padding-right: 0.2em;    /* reduce right padding */
+}
+
+/* Custom bullet */
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: inherit;
+  padding-left: 2em;
+}

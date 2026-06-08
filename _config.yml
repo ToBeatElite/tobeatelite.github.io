@@ -1,7 +1,7 @@
 # Site settings
 title: ToBeatElite # site title
 description: >- # site description
-  my place for learnings, projects, and thoughts
+  thoughts and learnings
 lang: en-US # default lang
 timezone: America/Toronto # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -9,10 +9,10 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: ToBeatElite # author name
+  name: 2be # author name
   fullname: Amitoj Singh
   bio: >- # tell to the world
-    <i>my place for learnings, projects, and thoughts</i>
+    <i>thoughts and learnings</i>
   username: ToBeatElite # general username
   github: ToBeatElite # github username
   avatar: /assets/img/avatar.png # change with your own avatar

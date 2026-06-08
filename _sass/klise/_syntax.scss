@@ -1,7 +1,7 @@
 // Code
 code {
-  font-family: $mono-family;
   text-rendering: optimizeLegibility;
+  font-family: "Source Code Pro", monospace;
   font-feature-settings: "calt" 1;
   font-variant-ligatures: normal;
   white-space: pre;
@@ -26,11 +26,11 @@ pre.highlight, pre {
     margin: 0 calc(51% - 51vw);
     padding-left: 20px;
   }
-  border: 1px solid rgba(128,128,128,0.1);
-  background-color: #1a1b21;
-  border-radius: 2px;
+  //border: 1px solid rgba(128,128,128,0.1);
+  //background-color: #1a1b21;
+  //border-radius: 2px;
   padding: 10px;
-  display: block;
+  //display: block;
   overflow-x: auto;
 
   > code {

@@ -68,7 +68,6 @@ h5,
 h6,
 p,
 blockquote,
-pre,
 ul,
 ol,
 dl,
@@ -325,6 +324,7 @@ sup {
 table {
   width: 100%;
   margin-top: $spacing-half;
+  margin-bottom: $spacing-half;
   border-collapse: collapse;
   font-size: $small-font-size;
 
@@ -338,6 +338,7 @@ table {
   td,
   tr {
     border: 1px solid $light;
+    //border-radius: 12px;
     padding: 2px 7px;
   }
 }
