@@ -62,12 +62,12 @@ typedef struct _FRAME_INFO {
 } FRAME_INFO, * PFRAME_INFO;
 
 __attribute__((naked)) PVOID fourArgAsmCall(
-	DWORD64 arg1,			  // [rsp + 0x00]
-	DWORD64 arg2,			  // [rsp + 0x08]
-	DWORD64 arg3,			  // [rsp + 0x10]
-	DWORD64 arg4, 			  // [rsp + 0x18]
+	DWORD64 arg1,             // [rsp + 0x00]
+	DWORD64 arg2,             // [rsp + 0x08]
+	DWORD64 arg3,             // [rsp + 0x10]
+	DWORD64 arg4,             // [rsp + 0x18]
 	DWORD64 functionPointer,  // [rsp + 0x20]
-	PFRAME_INFO frameInfo	  // [rsp + 0x28]
+	PFRAME_INFO frameInfo     // [rsp + 0x28]
 ) {
     asm(
     
