@@ -28,7 +28,7 @@ Let's explore known techniques which eliminate this IoC.
 
 # Existing Approaches
 
-KlezVirus's (Alessandro Magnosi's) approach to evading ROP-based dectection in [Moonwalk++](https://klezvirus.github.io/posts/Moonwalk-plus-plus/) is very clean: the gadget-hunting logic was improved to simply find jump gadgets which are preceeded by a call instruction.
+KlezVirus's approach to evading ROP-based dectection in [Moonwalk++](https://klezvirus.github.io/posts/Moonwalk-plus-plus/) is very clean: the gadget-hunting logic was improved to simply find jump gadgets which are preceeded by a call instruction.
 
 Klez also made [Half-Moonwalk](https://youtu.be/M7crU7fKx3k?si=2TPJAKTZl5tU0MvT&t=1420), whose purpose was to creates synthetic frames for indirect system calls, so the syscall looks like it was called from a high level API. Pushing a desynchronization frame would have broken the "natural" flow of the high level API call, so he set hardware breakpoints on every return address, and ran the epilogues associated with each function from within a VEH. It requires re-applying ("sliding") the breakpoints from address to address as an exception must be raised from each return address on the stack. However it dosent rely on gadgets and so, dosent produce the ROP IoC.
 
@@ -236,4 +236,4 @@ Great insight into how a commercial EDR might collect, enrich, and process call 
 - [Call Stacks: No More Free Passes For Malware by John Uhlmann at Elastic](https://www.elastic.co/security-labs/call-stacks-no-more-free-passes-for-malware)
 
 Nice blog about stack spoofing and my first introduction to it.
-- [An Introduction into Stack Spoofing by Dylan Tran](https://dtsec.us/2023-09-15-StackSpoofin/)
+- [An Introduction into Stack Spoofing by Nigerald](https://dtsec.us/2023-09-15-StackSpoofin/)
