@@ -8,7 +8,7 @@ comments: false
 
 **T1033 - System Owner/User Discovery**
 - Information Technology '27 @ York University
-- Adversary Emulation Intern @ RBC
+- Prev/ Adversary Emulation Intern @ RBC
 - OffSec Certified Professional (OSCP)
 - GIAC Red Team Professional (GRTP)
 - GIAC Security Essentials Certification (GSEC)
